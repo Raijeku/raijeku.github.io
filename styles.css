@@ -1,0 +1,192 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+    background-color: black;
+    scroll-behavior: smooth;
+}
+#logo {
+    max-height: 72px;
+}
+footer {
+    padding: 30px 0;
+}
+a {
+    color: #F1F2EB;
+    text-decoration: solid;
+    font-weight: bold;
+}
+/*h1, h2 {
+    color: #0F1146;
+}*/
+a:hover {
+    color: #d9dad4;
+}
+#section-1 .container {
+    color: #F1F2EB;
+    max-width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+#section-2 {
+    background-color: #6969B3;
+}
+#section-2 .container {
+    background-color: #6969B3;
+    color: #F1F2EB;
+    padding: 25px 25px 25px 25px;
+}
+#section-2 .container div {
+    margin: 10px 10px 10px 10px;
+}
+#section-2 .container ul {
+    list-style-type: disc;
+}
+#section-3 {
+    background-color: #533A7B;
+}
+#section-3 .container {
+    color: #F1F2EB;
+    padding: 25px 25px 25px 25px;
+}
+#section-3 .container div {
+    margin: 10px 10px 10px 10px;
+}
+#section-4 {
+    background-color: #00635D;
+}
+#section-4 .container {
+    color: #F1F2EB;
+    padding: 25px 25px 25px 25px;
+}
+#section-4 .container div {
+    margin: 10px 10px 10px 10px;
+}
+#section-5 {
+    background-color: #000500;
+}
+#section-5 .container {
+    color: #F1F2EB;
+    padding: 25px 25px 25px 25px;
+}
+#section-5 .container div {
+    margin: 10px 10px 10px 10px;
+}
+#section-1 .container-fluid {
+    max-width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+#section-2 .container-fluid {
+    background-color: #706AA5;
+    color: white;
+    padding: 25px 25px 25px 25px;
+}
+#section-2 .container-fluid div {
+    margin: 10px 10px 10px 10px;
+}
+#section-2 .container-fluid ul {
+    list-style-type: none;
+}
+#section-3 .container-fluid {
+    background-color: #FF6D00;
+    color: white;
+    padding: 25px 25px 25px 25px;
+}
+#section-3 .container-fluid div {
+    margin: 10px 10px 10px 10px;
+}
+#section-4 .container-fluid {
+    background-color: #4C65B2;
+    color: white;
+    padding: 25px 25px 25px 25px;
+}
+#section-4 .container-fluid div {
+    margin: 10px 10px 10px 10px;
+}
+.left {
+    float: left;
+    position: absoulte;
+}
+.intro-text {
+    z-index: 11;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);  
+}
+
+/*
+ * Custom styles
+ */
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #222;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.fixed-theme {
+    background-color: #706AA5;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+
+.login-options-list{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);  
+}
+
+.login-option{
+    width: 50%;
+    border-style: solid;
+    border-width: 1px;
+    margin: 1%;
+}
+
+.login-option:after{
+    padding-bottom: 100%;
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.img-login-option{
+    border-style: solid;
+    border-width: 1px;
+    margin: 2px;
+}
+
+.profile-name{
+    text-align: center;
+    font-size: x-large;
+}
+
+footer {
+    background-color: #706AA5;
+    color: white;
+    padding: 25px 25px 25px 25px;
+}
