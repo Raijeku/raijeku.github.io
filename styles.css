@@ -15,6 +15,7 @@ a {
     color: #F1F2EB;
     text-decoration: solid;
     font-weight: bold;
+    text-shadow: 0 0 5px rgb(255 255 255 / 50%);
 }
 /*h1, h2 {
     color: #0F1146;
@@ -42,7 +43,7 @@ a:hover {
     list-style-type: disc;
 }
 #section-3 {
-    background-color: #533A7B;
+    background-color: #000500;
 }
 #section-3 .container {
     color: #F1F2EB;
@@ -62,7 +63,7 @@ a:hover {
     margin: 10px 10px 10px 10px;
 }
 #section-5 {
-    background-color: #000500;
+    background-color: #533A7B;
 }
 #section-5 .container {
     color: #F1F2EB;
@@ -113,8 +114,17 @@ a:hover {
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);  
+    color: white;
+    text-shadow: 0 0 5px rgb(255 255 255 / 50%);
 }
-
+h1.section-title {
+    left: 50%;
+    text-align: center;
+    text-shadow: 1px 1px rgb(0 0 0 / 10%), 0 0 5px rgb(255 255 255 / 10%), 0 0 10px rgb(255 255 255 / 10%)
+}
+h2 {
+    text-shadow: 1px 1px rgb(0 0 0 / 10%), 0 0 5px rgb(255 255 255 / 10%), 0 0 10px rgb(255 255 255 / 10%)
+}
 /*
  * Custom styles
  */
@@ -140,8 +150,9 @@ a:hover {
     padding: 0;
 }
 
-.fixed-theme {
-    background-color: #706AA5;
+#nav-header.fixed-theme {
+    background-color: #000500;
+    border-bottom: 4px solid rgba(255,255,255,.55);
 }
 
 .navbar-brand.fixed-theme,
