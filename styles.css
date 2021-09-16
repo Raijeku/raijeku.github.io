@@ -43,7 +43,7 @@ a:hover {
     list-style-type: disc;
 }
 #section-3 {
-    background-color: #000500;
+    background-color: #BB4D4C;
 }
 #section-3 .container {
     color: #F1F2EB;
@@ -116,6 +116,9 @@ a:hover {
     transform: translate(-50%, -50%);  
     color: white;
     text-shadow: 0 0 5px rgb(255 255 255 / 50%);
+}
+p .intro-text {
+    font-size: 1.1rem;
 }
 h1.section-title {
     left: 50%;
@@ -197,7 +200,7 @@ h2 {
 }
 
 footer {
-    background-color: #706AA5;
+    background-color: #000500;
     color: white;
     padding: 25px 25px 25px 25px;
 }
