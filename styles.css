@@ -72,6 +72,16 @@ a:hover {
 #section-5 .container div {
     margin: 10px 10px 10px 10px;
 }
+#section-6 {
+    background-color: white;
+}
+#section-6 .container {
+    color: #222;
+    padding: 25px 25px 25px 25px;
+}
+#section-6 .container div {
+    margin: 10px 10px 10px 10px;
+}
 #section-1 .container-fluid {
     max-width: 100%;
     padding: 0px 0px 0px 0px;
