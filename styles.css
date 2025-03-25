@@ -247,17 +247,17 @@ footer {
     border: none;
     overflow: hidden;
 }
-#linkedin-post1 {
+.linkedin-post {
     width: 100%;
     min-height: 850px;
 }
 @media screen and (min-width:991px) and (max-width:1199px){
-    #linkedin-post1 {
+    .linkedin-post {
         min-height: 1050px;
     }
 }
 @media screen and (min-width:1200px){
-    #linkedin-post1 {
+    .linkedin-post {
         min-height: 950px;
     }
 }
